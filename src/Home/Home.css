@@ -27,6 +27,7 @@
 .flex-div {
     position: relative;
     margin: 25px;
+    display: flex;
 }
 
 .block-home-div {

@@ -1,0 +1,19 @@
+.loan-div {
+    margin: 5px;
+    display: flex;
+}
+
+.loan-block-div {
+    margin: 10px;
+    display: block;
+}
+
+.loan-data-label {
+    color: #545454;
+    font-size: medium;
+}
+
+.loan-title-label {
+    color: #0CAFA2;
+    font-size: medium;
+}
