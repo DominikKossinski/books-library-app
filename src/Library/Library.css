@@ -1,0 +1,47 @@
+.library-flex-div {
+    display: flex;
+}
+
+.library-title-img {
+    height: 70px;
+}
+
+.line-div {
+    background: #0CAFA2;
+    height: 5px;
+    width: 90%;
+    margin: 5px auto 5px auto;
+}
+
+.library-title-label {
+    margin: 5px auto 5px auto;
+    font-size: xx-large;
+}
+
+.owner-div {
+    margin: 25px 25px 25px auto;
+    display: block;
+}
+
+.add-item-library-div {
+    display: block;
+    margin: 25px auto 25px auto;
+}
+
+.owner-title-label {
+    font-size: large;
+    color: #0CAFA2;
+}
+
+.owner-data-label {
+    font-size: xx-large;
+    color: #545454;
+}
+
+#left-img {
+    margin: 5px 15px 5px auto;
+}
+
+#right-img {
+    margin: 5px auto 5px 15px;
+}

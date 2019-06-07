@@ -20,13 +20,16 @@
     color: #545454;
 }
 
-.flex-div {
+.library-home-div {
     margin: 25px;
-    display: flex;
 }
 
-.block-div {
-    margin: 25px;
-    display: block;
+.flex-div {
     position: relative;
+    margin: 25px;
+}
+
+.block-home-div {
+    margin: 25px auto 25px 25px;
+    display: block;
 }

@@ -53,15 +53,16 @@ class Home extends Component {
             invite = (
                 <Invite user={this.state.user}/>
             );
-            myLibrary = (
-                <Library user={this.state.user} libId={this.state.user.libId}/>
+            myLibrary = (<div className={"library-home-div"}>
+                    <Library user={this.state.user} libId={this.state.user.libId}/>
+                </div>
             );
 
         }
         return (<div id={"home-div"}>
             <div className={"flex-div"}>
                 {userData}
-                <div className={"block-div"}>
+                <div className={"invite-home-div"}>
                     {invite}
                 </div>
             </div>
