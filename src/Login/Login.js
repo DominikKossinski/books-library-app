@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Login.css';
+import login from '../login.png'
 
 class Login extends Component {
 
@@ -126,18 +127,24 @@ class Login extends Component {
     render() {
         if (!this.state.isLogged) {
             return (<div className="login-div">
-                <label className="login-title-label">Login</label><br/>
+                <div className={"login-title-div"}>
+                    <img src={login} className={"login-img"} alt={""}/>
+                    <p className="login-title-label">Login</p><br/>
+                </div>
 
-                <label className="login-input-label">User name:</label>
-                <input className="login-text-input" type="text" value={this.state.name} onChange={this.onNameChanged}
-                       placeholder="User Name"/>
-                <label ref={this.nameErrorLabel} className="error-label">{this.state.nameError}</label><br/>
-                <label className="login-input-label">Password:</label>
-                <input className="login-text-input" type="password" value={this.state.password}
-                       onChange={this.onPasswordChanged} placeholder="Password"/>
-                <label ref={this.passwordErrorLabel} className="error-label">{this.state.passwordError}</label><br/>
-                <input className="login-button" value="Log in" type="submit" onClick={this.login}/>
+                <div className={"login-data-div"}>
+                    <label className="login-input-label">User name:</label>
+                    <input className="login-text-input" type="text" value={this.state.name}
+                           onChange={this.onNameChanged}
+                           placeholder="User Name"/>
+                    <label ref={this.nameErrorLabel} className="error-label">{this.state.nameError}</label><br/>
+                    <label className="login-input-label">Password:</label>
+                    <input className="login-text-input" type="password" value={this.state.password}
+                           onChange={this.onPasswordChanged} placeholder="Password"/>
+                    <label ref={this.passwordErrorLabel} className="error-label">{this.state.passwordError}</label><br/>
 
+                    <input className="login-button" value="Log in" type="submit" onClick={this.login}/>
+                </div>
             </div>)
         } else {
             return (<span/>)

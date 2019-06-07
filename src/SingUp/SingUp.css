@@ -1,58 +1,55 @@
-.login-div {
-    background: #545454;
+.sing-up-div {
+    background: #0CAFA2;
     display: block;
     width: 350px;
     margin: 50px 25px 50px 25px;
 }
 
-
-.login-img {
+.sing-up-img {
     margin:  0 125px 0 125px;
     width: 100px;
     height: 100px;
 }
 
 
-.login-title-label {
-    color: #545454;
+.sing-up-title-label {
+    color: #0CAFA2;
     width: 100%;
     text-align: center;
     font-size: xx-large;
 }
 
-.login-data-div {
+.sing-up-data-div {
     padding-top: 10px;
 }
 
-.login-title-div {
+.sing-up-title-div {
     width: 100%;
     background: white;
 }
 
-
-.login-input-label {
+.sing-up-input-label {
     color: white;
     width: 300px;
     margin: 10px 25px 5px 25px;
     font-size: large;
 }
 
-.login-text-input {
+.sing-up-text-input {
     background: white;
-    color: #0CAFA2;
+    color: #545454;
     width: 300px;
     margin: 5px 25px 0 25px;
     font-size: large;
 }
 
-.login-button {
+.sing-up-button {
     background: white;
-    color: #0CAFA2;
+    color: #545454;
     width: 300px;
     margin: 10px 25px 10px 25px;
     font-size: large;
 }
-
 
 
 .error-label {
