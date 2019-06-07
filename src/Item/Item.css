@@ -1,0 +1,46 @@
+.item-div {
+    margin: 25px;
+    border: 5px solid #7ed957;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.item-data-flex-div {
+    display: flex;
+}
+
+
+.borrowed-item-div {
+    margin: 25px;
+    border: 5px solid red;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.item-title-label {
+     color: #0CAFA2;
+     font-size: large;
+ }
+
+.reading-item-label {
+    color: #7ed957;
+    font-size: large;
+}
+
+.item-data-label {
+    color: #545454;
+    font-size: xx-large;
+}
+
+.item-data-block-div {
+    display: block;
+    margin: 10px 20px 10px 20px;
+}
+
+
+.item-button {
+    margin: 5px;
+    background: #0CAFA2;
+    color: white;
+    font-size: large;
+}

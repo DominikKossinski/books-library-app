@@ -1,0 +1,16 @@
+.add-comment-button {
+    background: #0CAFA2;
+    margin: 10px;
+    color: white;
+    font-size: large;
+}
+
+.comment-div {
+    padding: 5px;
+}
+
+.comment-textarea {
+    margin: 5px;
+    width: 90%;
+    height: 200px;
+}
