@@ -1,0 +1,47 @@
+.login-div {
+    border: 5px solid #545454;
+    background: #545454;
+    display: block;
+    width: 350px;
+    margin: 50px 25px 50px 25px;
+}
+
+.login-input-label {
+    color: white;
+    width: 300px;
+    margin: 10px 25px 5px 25px;
+    font-size: large;
+}
+
+.login-text-input {
+    background: white;
+    color: #0CAFA2;
+    width: 300px;
+    margin: 5px 25px 0 25px;
+    font-size: large;
+}
+
+.login-button {
+    background: white;
+    color: #0CAFA2;
+    width: 300px;
+    margin: 10px 25px 10px 25px;
+    font-size: large;
+}
+
+.login-title-label {
+    color: white;
+    width: 300px;
+    text-align: center;
+    font-size: xx-large;
+    margin: 25px;
+}
+
+.error-label {
+    font-size: 10px;
+    color: red;
+    box-sizing: border-box;
+    width: 300px;
+    text-align: center;
+    margin: 2px 25px 10px 25px;
+}
