@@ -10,7 +10,6 @@ class Loan extends Component {
     }
 
     render() {
-        //TODO ładniejszy widok
         return (<div className={"loan-div"}>
             <div className={"loan-block-div"}>
                 <h5 className={"loan-title-label"}>User name</h5>
