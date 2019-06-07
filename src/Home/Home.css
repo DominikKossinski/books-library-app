@@ -1,0 +1,32 @@
+.user-data-div {
+    margin: 25px;
+    width: 50%;
+}
+
+.user-data-title-label {
+    margin: 5px;
+    color: #0CAFA2;
+}
+
+.data-div {
+    margin: 10px;
+}
+
+.stats-div {
+    margin: 10px;
+}
+.user-data-label {
+    margin: 5px;
+    color: #545454;
+}
+
+.flex-div {
+    margin: 25px;
+    display: flex;
+}
+
+.block-div {
+    margin: 25px;
+    display: block;
+    position: relative;
+}

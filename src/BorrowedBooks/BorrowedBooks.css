@@ -1,0 +1,21 @@
+.stats-label {
+    margin: 5px;
+    color: #545454;
+}
+
+.stats-title-label {
+    margin:  5px;
+    color: #0CAFA2;
+}
+
+.borrowed-book-div {
+    margin: 5px;
+}
+
+.borrowed-data-div {
+    display: block;
+}
+.borrowed-book-flex-div {
+    margin: 10px;
+    display: flex;
+}

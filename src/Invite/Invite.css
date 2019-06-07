@@ -1,0 +1,31 @@
+.invite-div {
+    width: 350px;
+    box-sizing: border-box;
+    background: #0CAFA2;
+    border: 5px solid #0CAFA2;
+    padding-top: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+.invite-label {
+    width: 250px;
+    margin: 25px;
+    font-size: x-large;
+    color: white;
+}
+
+.invite-input {
+    color: #0CAFA2;
+    width: 300px;
+    margin: 5px 25px 2px 25px;
+    font-size: large;
+}
+
+.invite-button {
+    margin: 5px 25px auto;
+    background: white;
+    color: #0CAFA2;
+    font-size: large;
+}
