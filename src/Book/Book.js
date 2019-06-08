@@ -116,7 +116,6 @@ class Book extends Component {
     }
 
     mapItems(items, book) {
-        //TODO łądniejszy wygląd + wyporzyczenie + if do act lib
         const component = this;
         let itemsTitle = (<div>
             <h2 className="book-page-title-label">No Items</h2>
