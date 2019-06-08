@@ -23,6 +23,11 @@
   color: #61dafb;
 }
 
+#login-div {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

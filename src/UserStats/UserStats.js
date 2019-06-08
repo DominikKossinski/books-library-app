@@ -50,7 +50,6 @@ class UserStats extends Component {
     }
 
     render() {
-        //TODO ładniejszy wygląd + ostatnie ksiązka + act czytane
         let lastItem = (<span/>);
         if (this.state.lastItem) {
             lastItem = (<div className={"last-book-div"}>

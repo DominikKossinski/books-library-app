@@ -49,7 +49,6 @@ class AllBooks extends Component {
     }
 
     mapBooks(books) {
-        //TODO lepszy wygląd
         const booksElements = books.map(function (book) {
             return (<div key={"book" + book.bookId} className={"book-div"}>
                 <Link className={"book-link"} to={"/book/" + book.bookId}>

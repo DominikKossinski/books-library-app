@@ -172,9 +172,13 @@ class SingUp extends Component {
             http.send(parsed);
             http.onreadystatechange = function (e) {
                 if (http.readyState === 4) {
-                    var response = http.responseText;
+                    const response = JSON.parse(http.responseText);
                     console.log(response);
-                    //TODO ify
+                    if(response.status === "ok") {
+                        alert("Successful creating user")
+                    } else {
+                        alert("Error by adding user")
+                    }
                 }
             };
         }

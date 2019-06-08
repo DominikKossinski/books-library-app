@@ -11,7 +11,6 @@ class Member extends Component {
     }
 
     render() {
-        //TOdo ładniejszy widok
         return (<div className={"member-div"}>
                 <div className={"member-block-div"}>
                     <h2 className={"member-title-label"}>User name</h2>
