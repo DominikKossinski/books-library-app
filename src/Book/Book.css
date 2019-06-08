@@ -1,0 +1,46 @@
+.book-page-div {
+    margin: 25px;
+}
+
+.book-page-title-label {
+    font-size:large;
+    color: #0CAFA2;
+}
+
+.book-page-data-label {
+    font-size: xx-large;
+    color: #545454;
+}
+
+.book-page-item-div {
+    margin: 10px;
+    border: 5px solid #7ed957;
+}
+
+.book-page-item-borrowed-div {
+    margin: 10px;
+    border: 5px solid red;
+}
+
+.book-page-item-flex-div {
+    display: flex;
+}
+
+.book-page-item-block-div {
+    margin: 10px;
+}
+
+.book-page-item-title-label {
+    font-size: large;
+    color: #0CAFA2;
+}
+
+.book-page-item-data-label {
+    font-size: x-large;
+    color: #545454;
+}
+.book-page-button {
+    margin: 10px;
+    background: #0CAFA2;
+    font-size: large;
+}
