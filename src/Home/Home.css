@@ -34,3 +34,21 @@
     margin: 25px auto 25px 25px;
     display: block;
 }
+.welcome-div {
+    display: block;
+    margin: 50px auto 50px auto;
+}
+
+.welcome-label {
+    text-align: center;
+    font-size: xx-large;
+    color: #0CAFA2;
+    margin: 25px auto 25px auto;
+}
+
+.info-label {
+    text-align: center;
+    font-size: x-large;
+    color: #545454;
+    margin: 25px auto 25px auto;
+}

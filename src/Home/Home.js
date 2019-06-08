@@ -26,6 +26,7 @@ class Home extends Component {
     }
 
     render() {
+        let homePage = (<span/>);
         let userData = (<span/>);
         let myLibrary = (<span/>);
         let invite = (<span/>);
@@ -58,8 +59,17 @@ class Home extends Component {
                 </div>
             );
 
+        } else {
+            homePage = (<div className={"welcome-div"}>
+                <div className={"auto-margin-div"}>
+                    <h1 className={"welcome-label"}>WELCOME TO OUR LIBRARY</h1><br/>
+                    <h2 className={"info-label"}>To login or sing up click Log In</h2><br/>
+                    <h2 className={"info-label"}>To search a book in our library click on Library</h2>
+                </div>
+            </div>)
         }
         return (<div id={"home-div"}>
+            {homePage}
             <div className={"flex-div"}>
                 {userData}
                 <div className={"invite-home-div"}>

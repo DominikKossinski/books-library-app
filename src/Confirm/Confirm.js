@@ -59,7 +59,6 @@ class Confirm extends Component {
     }
 
     render() {
-        //TODO poprawić render
         let confirmElement = (<span/>);
         if (this.state.confirmState === "") {
             confirmElement = (<div className={"confirm-div"}>
