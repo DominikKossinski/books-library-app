@@ -1,0 +1,34 @@
+.my-library-div {
+    padding: 15px;
+    margin: 30px;
+    border: 5px solid #545454;
+    border-radius: 5px;
+}
+
+.my-libraries-div {
+    margin: 5px;
+}
+
+.my-library-link {
+    text-decoration: none;
+}
+
+.my-library-title-label {
+    font-size: large;
+    color: #0CAFA2;
+}
+
+.my-library-data-label {
+    color: #545454;
+    font-size: x-large;
+}
+
+.my-library-flex-div {
+    display: flex;
+}
+
+.my-library-block-div {
+    display: block;
+    margin: 25px;
+    margin: 25px;
+}
