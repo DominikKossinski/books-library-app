@@ -1,0 +1,13 @@
+.lib-search-label {
+    font-size: large;
+    color: #0CAFA2;
+    margin: 5px;
+}
+
+.lib-search-input {
+    width: 90%;
+    background: white;
+    color: #545454;
+    border: 5px solid #0CAFA2;
+    border-radius: 5px;
+}

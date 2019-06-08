@@ -3,6 +3,7 @@ import './Library.css'
 import Item from "../Item/Item";
 import AddItem from "../AddItem/AddItem";
 import bookAccent from '../bookAccent.png'
+import LibrarySearch from "../LibrarySearch/LibrarySearch"
 
 class Library extends Component {
 
@@ -13,8 +14,8 @@ class Library extends Component {
                 user: props.user,
                 libId: props.libId,
                 owner: {
-                    name:"",
-                    email:""
+                    name: "",
+                    email: ""
                 }
             };
         } else {
@@ -24,8 +25,8 @@ class Library extends Component {
                 user: props.user,
                 libId: u[u.length - 1],
                 owner: {
-                    name:"",
-                    email:""
+                    name: "",
+                    email: ""
                 }
             };
         }
@@ -101,6 +102,9 @@ class Library extends Component {
                     <h1 className={"owner-data-label"}>{this.state.owner.name}</h1>
                     <h2 className={"owner-title-label"}>Owner email</h2>
                     <h1 className={"owner-data-label"}>{this.state.owner.email}</h1>
+                    <div className={"library-search-div"}>
+                        <LibrarySearch user={this.state.user} libId={this.state.libId} setItems={this.mapItems}/>
+                    </div>
                 </div>
                 <div className={"add-item-library-div"}>
                     <AddItem refreshItems={this.getLibItems} user={this.state.user} libId={this.state.libId}/>

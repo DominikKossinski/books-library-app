@@ -6,6 +6,9 @@
     height: 70px;
 }
 
+.library-search-div {
+    margin: 10px;
+}
 .line-div {
     background: #0CAFA2;
     height: 5px;
