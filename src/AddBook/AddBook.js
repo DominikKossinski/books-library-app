@@ -113,7 +113,6 @@ class AddBook extends Component {
                 if (http.readyState === 4) {
                     const data = JSON.parse(http.responseText);
                     console.log(data);
-                    //TOdo lepsze komunikaty
                     if (data.status === "ok") {
                         alert("Successful adding book")
                     } else {
