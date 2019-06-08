@@ -1,0 +1,21 @@
+.member-div {
+    display: flex;
+    border: 5px solid #0CAFA2;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.member-block-div {
+    margin: 15px;
+    display: block;
+}
+
+.member-title-label {
+    color: #0CAFA2;
+    font-size: large;
+}
+
+.member-data-label {
+    color: #545454;
+    font-size: x-large;
+}
