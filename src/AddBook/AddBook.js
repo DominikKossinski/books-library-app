@@ -18,9 +18,9 @@ class AddBook extends Component {
             pagesCountError: "",
         };
 
-        this.titleReqex = new RegExp("[0-9a-zA-Z ,.]+");
-        this.authorRegex = new RegExp("[0-9a-zA-Z ,.]+");
-        this.isbnRegex = new RegExp("[0-9]{13}");
+        this.titleReqex = new RegExp("[0-9a-zA-Z ,.]{0,50}");
+        this.authorRegex = new RegExp("[0-9a-zA-Z ,.]{0,50}");
+        this.isbnRegex = new RegExp("[0-9]{0,13}");
 
         this.onTitleChange = this.onTitleChange.bind(this);
         this.onISBNChange = this.onISBNChange.bind(this);

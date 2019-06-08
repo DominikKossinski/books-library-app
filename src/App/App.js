@@ -12,6 +12,7 @@ import MyLibraries from "../MyLibraries/MyLibraries";
 import Library from "../Library/Library";
 import AllBooks from "../AllBooks/AllBooks"
 import Book from "../Book/Book";
+import OutsideBooks from "../OutsideBooks/OutsideBooks";
 
 class App extends Component {
 
@@ -80,6 +81,7 @@ class App extends Component {
                     </Route>
                     <Route exact path={"/invitation/:invitationId"} component={Invitation}>
                     </Route>
+                    <Route exact path={"/outside/:libId"} component={() => <OutsideBooks user={this.state.user}/>}/>
                     <Route exact path={"/book/:bookId"} component={() => <Book user={this.state.user}/>}/>
                 </Switch>
             </Router>

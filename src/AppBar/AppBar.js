@@ -73,6 +73,7 @@ class AppBar extends Component {
 
         let membersButton = (<span/>);
         let librariesButton = (<span/>);
+        let outsideButton = (<span/>);
 
         if (!this.state.isLogged) {
             logoutButton = (<span/>)
@@ -83,6 +84,9 @@ class AppBar extends Component {
             </Link>);
             librariesButton = (<Link className={"link"} to={"/libraries"}>
                 <div className={"link-ref"}>My Libraries</div>
+            </Link>);
+            outsideButton = (<Link className={"link"} to={"/outside/" + this.state.user.libId}>
+                <div className={"link-ref"}>Outside Books</div>
             </Link>);
         }
 
@@ -98,6 +102,7 @@ class AppBar extends Component {
                     </Link>
                     {librariesButton}
                     {membersButton}
+                    {outsideButton}
                     {logoutButton}
                     {loginButton}
                     <div id={"clear"}/>
