@@ -1,0 +1,22 @@
+.invitation-flex-div {
+    display: flex;
+}
+
+.invitation-block-div {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+.invitation-title-label {
+    color: #0CAFA2;
+    font-size: x-large;
+    text-align: center;
+    width: 300px;
+}
+
+.invitation-data-label {
+    color: #545454;
+    font-size: xx-large;
+    text-align: center;
+    width: 300px;
+}
